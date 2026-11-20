@@ -99,9 +99,9 @@ In terms of architectural trade-offs, Model B possesses $\sim 5.3\times$ more pa
 
 | Screenshot | Description | Preview |
 | :--- | :--- | :---: |
-| **1. MLflow Compare View** | Side-by-side comparison of Model A & B runs (`compare_sentiment`) | [View](screenshots/mlflow1.png) |
-| **2. Model Registry & Aliases** | Registered model versions and assigned roles (`@champion` / `@challenger`) | [View](screenshots/mlflow2.png) |
-| **3. Terminal Output** | Execution of `predict_from_mlflow.py` resolving `@champion` on new data | [View](screenshots/mlflow3.png) |
+| **1. MLflow Compare View** | Side-by-side comparison of Model A & B runs (`compare_sentiment`) | [View](screenshots/mlflow_compare_view.png) |
+| **2. Model Registry & Aliases** | Registered model versions and assigned roles (`@champion` / `@challenger`) | [View](screenshots/registry_aliases.png) |
+| **3. Terminal Output** | Execution of `predict_from_mlflow.py` resolving `@champion` on new data | [View](screenshots/terminal_predict_output.png) |
 
 ---
 
