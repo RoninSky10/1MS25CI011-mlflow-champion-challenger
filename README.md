@@ -26,8 +26,8 @@ Follow these commands in order from the repository root:
 # 1. Install dependencies
 python -m pip install -r requirements.txt
 
-# 2. (Optional) Start local MLflow server with SQLite backend (in a separate terminal)
-python -m mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlartifacts --host 127.0.0.1 --port 5000
+# 2. Start local MLflow server with SQLite backend (in a separate terminal)
+python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5000
 
 # 3. Run evaluation across both models and log to MLflow
 python evaluate.py
@@ -39,7 +39,7 @@ python register_champion.py
 python predict_from_mlflow.py
 ```
 
-*MLflow UI is viewable at `http://127.0.0.1:5000` (or by starting `python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5000`).*
+*MLflow UI is viewable at `http://127.0.0.1:5000`.*
 
 ---
 
@@ -95,7 +95,17 @@ In terms of architectural trade-offs, Model B possesses $\sim 5.3\times$ more pa
 
 ---
 
-## 6. Limitations and Declaration
+## 6. Screenshots & Verification (Section 6)
+
+| Screenshot | Description | Preview |
+| :--- | :--- | :---: |
+| **1. MLflow Compare View** | Side-by-side comparison of Model A & B runs (`compare_sentiment`) | [View](screenshots/mlflow1.png) |
+| **2. Model Registry & Aliases** | Registered model versions and assigned roles (`@champion` / `@challenger`) | [View](screenshots/mlflow2.png) |
+| **3. Terminal Output** | Execution of `predict_from_mlflow.py` resolving `@champion` on new data | [View](screenshots/mlflow3.png) |
+
+---
+
+## 7. Limitations and Declaration
 
 * **Limitations:** The evaluation was conducted on a curated 50-sample subset run on CPU. While covering challenging edge cases, larger benchmark evaluations (e.g., full 1,821 SST-2 test samples) are recommended prior to enterprise-scale deployment.
 * **Declaration of Tools:** Developed in PyCharm and VS Code. In accordance with Section 4 of the assignment guidelines, AI assistant Antigravity was utilized for scaffolding setup, data formatting, and code review. All code logic, metric implementations, MLflow tracking architectures, and registry aliasing were reviewed, understood, and verified by the student for viva examination.
