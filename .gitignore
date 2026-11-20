@@ -1,4 +1,4 @@
-﻿# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
 *.class
@@ -9,9 +9,26 @@ venv/
 ENV/
 env/
 
-# PyCharm / IDE files
+# IDE files
 .idea/
 .vscode/
+
+# MLflow tracking and artifacts (REQUIRED BY SECTION 6)
+mlruns/
+mlflow.db
+mlflow.db-journal
+mlartifacts/
+*.db
+*.sqlite
+
+# Model files / weights / checkpoints
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.pkl
+*.skops
 
 # OS metadata
 Thumbs.db

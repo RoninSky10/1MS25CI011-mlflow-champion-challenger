@@ -1,0 +1,51 @@
+id,text,label
+1,This movie was an absolute masterpiece with stellar performances throughout.,POSITIVE
+2,The battery life is fantastic and lasts well over two full days.,POSITIVE
+3,Exceptional build quality and super intuitive software design.,POSITIVE
+4,The restaurant ambiance was delightful and the dessert was unforgettable.,POSITIVE
+5,I was pleasantly surprised by how lightweight yet powerful this laptop is.,POSITIVE
+6,"Customer support resolved my billing issue in less than five minutes, brilliant service.",POSITIVE
+7,An emotionally captivating novel that kept me hooked until the final page.,POSITIVE
+8,The sound quality on these noise-canceling headphones is wonderfully crisp and balanced.,POSITIVE
+9,A truly breathtaking visual experience with great attention to cinematic detail.,POSITIVE
+10,"Setup was a breeze, took only five minutes out of the box to connect.",POSITIVE
+11,"Not bad at all, actually exceeded my modest expectations significantly.",POSITIVE
+12,The graphics card handles modern 1440p gaming with silky smooth framerates.,POSITIVE
+13,Very comfortable running shoes with outstanding arch support for long marathons.,POSITIVE
+14,"Fast shipping, premium packaging, and item arrived in pristine condition.",POSITIVE
+15,"The camera produces vibrant, true-to-life colors even in low-light environments.",POSITIVE
+16,A heartwarming story that resonates deeply with audiences of all ages.,POSITIVE
+17,"The touchscreen display is bright, responsive, and easy to read outdoors.",POSITIVE
+18,Outstanding fuel efficiency and surprisingly quiet on the highway.,POSITIVE
+19,"Highly recommended for anyone looking for a reliable, budget-friendly smartphone.",POSITIVE
+20,The soundtrack perfectly complemented the emotional tone of every single scene.,POSITIVE
+21,Solid construction and works exactly as advertised without any fuss.,POSITIVE
+22,Delicious authentic Italian cuisine with generous portion sizes and friendly staff.,POSITIVE
+23,Super smooth typing experience on this mechanical keyboard with great tactile feel.,POSITIVE
+24,An ingenious plot twist that I completely failed to predict until the reveal.,POSITIVE
+25,The update completely fixed all previous stuttering and improved battery efficiency.,POSITIVE
+26,Terrible customer support that kept me on hold for an hour without resolving anything.,NEGATIVE
+27,The screen cracked on the first day after a minor fall from a low sofa.,NEGATIVE
+28,Extremely disappointing plot with shallow characters and predictable dialogues.,NEGATIVE
+29,The app crashes constantly on startup after the latest buggy software update.,NEGATIVE
+30,Overpriced coffee and stale pastries served by completely rude staff.,NEGATIVE
+31,The battery drains completely within three hours of very light usage.,NEGATIVE
+32,Cheap plastic construction that creaks and feels flimsy in your hand.,NEGATIVE
+33,The book drags on aimlessly for hundreds of pages with zero meaningful progression.,NEGATIVE
+34,Horrible audio distortion at volumes higher than fifty percent.,NEGATIVE
+35,Delivery took three weeks longer than promised and the package arrived crushed.,NEGATIVE
+36,Failed to live up to any of the aggressive marketing hype surrounding it.,NEGATIVE
+37,"The software interface is confusing, cluttered, and completely unintuitive.",NEGATIVE
+38,Constantly drops wireless connection every few minutes during important video calls.,NEGATIVE
+39,Blunt blades that struggled to slice even soft vegetables properly.,NEGATIVE
+40,The hotel room smelled damp and the air conditioning barely cooled the room.,NEGATIVE
+41,A dull and pretentious film that felt twice as long as its runtime.,NEGATIVE
+42,The material feels rough and uncomfortable against sensitive skin after washing.,NEGATIVE
+43,Missing essential accessories that were clearly listed on the product box.,NEGATIVE
+44,The engine makes an alarming rattling noise whenever accelerating past 40 mph.,NEGATIVE
+45,Unreliable GPS tracking that frequently placed my location two streets away.,NEGATIVE
+46,Fails to connect with modern Bluetooth 5.0 devices despite advertised compatibility.,NEGATIVE
+47,"The zipper broke on the very first business trip, ruining my carry-on bag.",NEGATIVE
+48,Mediocre acting and painfully cringe-worthy comedic timing throughout.,NEGATIVE
+49,Completely worthless warranty that refuses to cover standard manufacturing defects.,NEGATIVE
+50,Save your hard-earned money and look for alternatives; this is a total scam.,NEGATIVE
