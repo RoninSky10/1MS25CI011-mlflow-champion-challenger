@@ -1,0 +1,2 @@
+id,text,reference,pred_model_A,conf_model_A,pred_model_B,conf_model_B,commentary
+10,"Setup was a breeze, took only five minutes out of the box to connect.",POSITIVE,NEGATIVE,0.9918,POSITIVE,0.9988,Model A predicted NEGATIVE; Model B correctly caught nuanced sentiment as POSITIVE

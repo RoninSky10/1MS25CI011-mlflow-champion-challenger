@@ -1,0 +1,35 @@
+{
+    "student_usn": "1MS25CI011",
+    "task": "sentiment_classification",
+    "evaluation_samples": 50,
+    "model_A": {
+        "accuracy": 0.98,
+        "macro_f1": 0.98,
+        "precision": 0.9808,
+        "recall": 0.98,
+        "avg_latency_ms": 33.76,
+        "total_inference_s": 1.69
+    },
+    "model_B": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "avg_latency_ms": 412.79,
+        "total_inference_s": 20.64
+    },
+    "decision": {
+        "primary_metric": "macro_f1",
+        "margin_threshold": 0.02,
+        "tie_breaker": "lower_latency",
+        "direction": "higher_is_better_for_f1_lower_for_latency",
+        "delta_macro_f1": 0.02,
+        "delta_accuracy": 0.02,
+        "delta_latency_ms": 379.03,
+        "winner": "challenger",
+        "winning_model": "siebert/sentiment-roberta-large-english",
+        "winning_run_id": "f426d3553fd44825a3a426df8bc132c4",
+        "justification": "Challenger exceeded margin (+0.0200 >= 0.02)"
+    },
+    "disagreements_count": 1
+}

@@ -1,0 +1,9 @@
+id,text,predicted_label,confidence,model_version,hf_model_id
+101,The newly released firmware significantly sped up boot times and smoothed app switching.,POSITIVE,0.9988,2,siebert/sentiment-roberta-large-english
+102,"Disastrous meal that was cold, undercooked, and accompanied by awful service.",NEGATIVE,0.9995,2,siebert/sentiment-roberta-large-english
+103,A surprisingly poignant documentary that presents intricate investigative journalism.,POSITIVE,0.9989,2,siebert/sentiment-roberta-large-english
+104,The smartwatch sensor repeatedly failed to record my resting heart rate accurately.,NEGATIVE,0.9995,2,siebert/sentiment-roberta-large-english
+105,"Brilliant craftsmanship, sleek metallic finish, and effortless everyday handling.",POSITIVE,0.9989,2,siebert/sentiment-roberta-large-english
+106,Defective power button that became permanently stuck after only three days.,NEGATIVE,0.9995,2,siebert/sentiment-roberta-large-english
+107,An absolute joy to drive on winding mountain passes with responsive steering.,POSITIVE,0.9989,2,siebert/sentiment-roberta-large-english
+108,The keyboard layout is terribly cramped and causes immediate wrist strain.,NEGATIVE,0.9995,2,siebert/sentiment-roberta-large-english
